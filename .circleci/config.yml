@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  datacamp-ecr: datacamp/ecr@0
+  datacamp-ecr: datacamp/ecr@1
 workflows:
   version: 2
   build:
