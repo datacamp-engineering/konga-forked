@@ -10,6 +10,7 @@ workflows:
           context: org-global
           aws-access-key-id: $OPS_AWS_ACCESS_KEY_ID
           aws-secret-access-key: $OPS_AWS_SECRET_ACCESS_KEY
+          puller-account-ids: '["301258414863", "487088987264"]'
           account-url: $OPS_ECR_URL
           dockerfile: Dockerfile
           repo: konga-forked
